@@ -1,5 +1,4 @@
 @import "../../mixins.scss";
-
 .searchResultsPage {
   min-height: 700px;
   padding-top: 100px;
@@ -15,7 +14,7 @@
   }
   .content {
     display: flex;
-    flex-flow: row wr0ap;
+    flex-flow: row wrap;
     gap: 10px;
     margin-bottom: 50px;
     @include md {
